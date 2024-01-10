@@ -40,3 +40,7 @@
     height: 4px;
     margin: 2px;
 }    
+
+h1, p{
+    text-align: center;
+}
