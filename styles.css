@@ -1,53 +1,111 @@
 /**************************************************************   Import Fonts   ********************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap');
 /* Skeleton */
-/***************************************************************    Navbar    **********************************************************************/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', 'Dancing Script', 'pacifico','courgette', sans-serif;
 }
 
-
-
-.container {
-     background-color: black;
-     margin-left: auto;
-     margin-right: auto;
-        
-}  
-.navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/***************************************************************    Navbar    **********************************************************************/
+.nav {
+    background:#0C2340;
     height: 80px;
+    width: 100%;
 }
 
-.navbar-item {
+label.logo{
+   color:#fff;
+   font-family: courgette;
+   font-size: 35px;
+   line-height: 80px;
+   padding: 0 100px;
+   font-weight:bold;
+}
+
+.nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.nav ul li{
     display: inline-block;
-    width:auto;
-    padding:0px 15px;
-    
+    line-height: 80px;
+    margin: 0 5px;
 }
 
-.container a {
-    text-decoration: none;
-    color: white;
-    font-size: larger;
+.nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
 }
-  
-.icon-bar {
-    display: block;
-    width: 25px;
-    height: 4px;
-    margin: 2px;
-}    
 
+.nav a.active,.nav a:hover{
+    background:#007ea7;
+    transition: 0.5s;
 
+}
+.checkbtn{
+    color:#fff;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
 
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+      
+    .nav ul li a{
+        font-size: 16px;
+    }
+}
 
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    ul {
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background: #007ea7;
+        top:80px;
+        left:-100%;
+        transition: all 0.5s;
+        text-align: center;
+    }
+    .nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color:#007ea7;
+    }
+    #check:checked ~ ul{
+        left:0;
+
+    }
+}
 
 h1{
     font-size: 40px;
@@ -56,30 +114,28 @@ h1,h2{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
+    font-family: courgette;
 }
 
 /***********************************************************     About     ***********************************************************************/
 .about{
    width: 100%;
-   height: 800px;
-   padding: 50px;
+   padding: 0%;
    display:flex;
-   justify-content: center;
-   margin-left: auto;
-   margin-right: auto;
-    
-}
-
+   flex-wrap: nowrap;
+   
+   padding: 50px;
+}   
 p {
     font-size:larger;
 }
 
 .about-text {
-    height: 100%;
-    width:100%;
+    
     line-height: 1.8;
     font-weight: normal;
-    padding-bottom: 20px ;
+    padding-left: 50px;
+    
     
 }
 
@@ -88,6 +144,7 @@ p {
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
+    box-sizing: border-box;
     
 }
 
@@ -107,6 +164,10 @@ p {
     width: 100%;
    }} 
 
+   .about-img img{
+    height: auto;
+    box-sizing: border-box;
+   }
 .bt {
     display: flex;
     justify-content: center;
@@ -123,7 +184,7 @@ p {
 }
 .bt a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 /************************************************************    Services    ***************************************************************/
@@ -135,6 +196,7 @@ p {
     grid-gap: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    width: auto;
     
 }
 .item1 {
@@ -246,9 +308,10 @@ p {
     margin-right: auto;
     width: 100%;
     height: 250px;
-    background-color: #212121;  
+    background-color:#0C2340 ;  
     text-align: center; 
-    color:  #4ac3ff;
+    color: #fff;
+    
 }
 .social {
     margin: 0;
@@ -260,16 +323,12 @@ p {
 
 }
 
-.social :hover{
-    color:  #4ac3ff;
-}
-
 .copyright {
     padding-bottom: 25px;
 }
 
 .footer a {
-    color: white;
+    color: #fff;
     padding: 20px;
 }
 
