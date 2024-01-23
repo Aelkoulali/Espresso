@@ -11,6 +11,11 @@
     font-family: 'Poppins', 'Dancing Script', 'pacifico','courgette', sans-serif;
 }
 
+#main{
+    background-color:rgb(201, 214, 243) ;
+
+}
+
 /***************************************************************    Navbar    **********************************************************************/
 .nav {
     background:#0C2340;
@@ -123,8 +128,8 @@ h1,h2{
    padding: 0%;
    display:flex;
    flex-wrap: nowrap;
-   
    padding: 50px;
+   background-color:rgb(201, 214, 243) ;
 }   
 p {
     font-size:larger;
@@ -134,8 +139,7 @@ p {
     
     line-height: 1.8;
     font-weight: normal;
-    padding-left: 50px;
-    
+      
     
 }
 
@@ -162,12 +166,10 @@ p {
     flex-direction: column;
     padding: 10px;
     width: 100%;
-   }} 
-
-   .about-img img{
-    height: auto;
-    box-sizing: border-box;
    }
+} 
+
+   
 .bt {
     display: flex;
     justify-content: center;
@@ -300,7 +302,7 @@ p {
 /**********************************************************************     Footer    ******************************************************************/
 
 .footer {
-    margin-top: 50px;
+    
     padding: 50px;
     display: flex;
     flex-direction: column;
