@@ -130,6 +130,7 @@ h1,h2{
    flex-wrap: nowrap;
    padding: 50px;
    background-color:rgb(201, 214, 243) ;
+   box-sizing: border-box;
 }   
 p {
     font-size:larger;
@@ -139,12 +140,10 @@ p {
     
     line-height: 1.8;
     font-weight: normal;
-      
-    
+        
 }
 
 .about-img img{
-    height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
