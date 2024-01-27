@@ -11,8 +11,9 @@
     font-family: 'Poppins', 'Dancing Script', 'pacifico','courgette', sans-serif;
 }
 
-#main{
-    background-color:rgb(201, 214, 243) ;
+main{
+margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -129,8 +130,8 @@ h1,h2{
    display:flex;
    flex-wrap: nowrap;
    padding: 50px;
-   background-color: #f2f2f2;
    box-sizing: border-box;
+   justify-content: center;
 }   
 p {
     font-size:larger;
@@ -144,7 +145,7 @@ p {
 }
 
 .about-img img{
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
     border-radius: 8px;
     box-sizing: border-box;
@@ -320,7 +321,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 250px;
+    height: auto;
     background-color:#0C2340 ;  
     text-align: center; 
     color: #fff;
