@@ -193,6 +193,29 @@ p {
 .services {
     text-align: center;
 }
+
+.wrapper{
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .box{
+    background-color: #a7e5f9;
+    border-radius: 5px;
+    padding: 25px;
+    width: calc(33% - 10px);
+    height: 250px;
+
+}
+.wrapper .box .name{
+    font-weight: bold;
+}
+
+.wrapper .box .stars {
+    color:navy; 
+}
 /************************************************************    Gallery     ***************************************************************/
 
 .gallery{
