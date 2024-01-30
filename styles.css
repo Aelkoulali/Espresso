@@ -14,6 +14,7 @@
 main{
 margin-left: auto;
 margin-right: auto;
+width: 1200px;
 
 }
 
@@ -118,38 +119,42 @@ h1{
 }
 h1,h2{
     text-align: center;
-    padding-bottom: 50px;
-    padding-top: 50px;
     font-family: courgette;
+    padding: 20px;
 }
 
 /***********************************************************     About     ***********************************************************************/
 .about{
-   width: 100%;
+   max-width: 100%;
    padding: 0%;
    display:flex;
    flex-wrap: nowrap;
-   padding: 50px;
    box-sizing: border-box;
    justify-content: center;
-}   
+   padding: 50px;
+   gap: 25px;
+   }   
+
 p {
-    font-size:larger;
+    font-size:large;
 }
 
 .about-text {
     
     line-height: 1.8;
     font-weight: normal;
+    width: 100%;
+    min-height: 450px;
         
 }
 
 .about-img img{
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 8px;
     box-sizing: border-box;
-    
+    min-height: 450px;
+       
 }
 
 
@@ -199,6 +204,7 @@ p {
     padding: 0 20px;
     align-items: center;
     justify-content: space-between;
+    height: auto;
 }
 
 .wrapper .box{
@@ -206,15 +212,23 @@ p {
     border-radius: 5px;
     padding: 25px;
     width: calc(33% - 10px);
-    height: 250px;
+    
+    overflow: hidden;
 
+}
+
+.wrapper .box p{
+    font-size: 16px;
 }
 .wrapper .box .name{
     font-weight: bold;
+    font-size: 17px;
+    padding: 5px;
 }
 
 .wrapper .box .stars {
-    color:navy; 
+    color:blueviolet;
+   
 }
 /************************************************************    Gallery     ***************************************************************/
 
