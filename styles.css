@@ -122,6 +122,18 @@ h1,h2{
     padding: 45px;
 }
 
+.banner{
+    height:100vh;
+    background: url('images/Banner.jpg');
+    background-size:cover;
+    position:relative;
+}
+.banner-text{
+    color:white;
+    text-align: center;
+    font-family: pacifico;
+    font-weight: bolder;
+}
 /***********************************************************     About     ***********************************************************************/
 .about{
    max-width: 100%;
@@ -182,8 +194,9 @@ p {
     box-sizing:content-box;
     width: 100px;
     margin: 50px auto 50px auto;
-    border-radius: 4px;
+    border-radius: 8px;
     text-align: center;
+    font-weight: bold;
 }
 .bt:hover {
     background-color:rgb(18, 184, 244) ;
@@ -240,7 +253,7 @@ p {
 
 .gallery{
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 20px;
     width: auto;
     
 }
@@ -379,6 +392,11 @@ p {
     font-size: 21px;
     padding-top: 15px;
 }
+
+.content p{
+    padding:2px 15px;
+   }
+
 .infos {
     padding: 15px 50px;
     display: flex;
@@ -392,6 +410,7 @@ ul{
 }
 ul>p{
     padding-bottom: 5px;
+    font-weight: bold;
     text-decoration: underline 2px;
     text-decoration-color: white;
     text-underline-offset: 5px;
