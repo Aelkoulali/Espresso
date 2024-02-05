@@ -33,19 +33,33 @@
        <h1>Contact Us</h1>
        <div class="contact">
         <div class="info">
-          <p><strong>Opening Hours</strong></p>
-          <p><i class="fa-regular fa-calendar-days"></i><strong> Monday-Saturday</strong></p>
-          <p><i class="fa-regular fa-clock"></i><strong> 07:00 am - 07:00 pm</strong></p>
+          <p>Opening Hours</p>
+          <p><i class="fa-regular fa-calendar-days"></i> Monday-Saturday</p>
+          <p><i class="fa-regular fa-clock"></i> 07:00 am - 07:00 pm</p>
           <p><i class="fa-solid fa-shop-lock"></i> Closed Sunday</p>
         </div>
-        <!-- Form Fields -->
-        <div class="form">
-          <input type="text" class="form-control" placeholder="Name">
-          <ipnut type="email" class="form-control" placehlder="Email">          
-          <ipnut type="text" class="form-control" Placeholder="Subject">
-          <textarea class="form-control" rows="5" name="text" placeholder="details"></textarea> 
-        </div>  
+        <div class="address">
+          <p>Address</p>
+          <p><i class="fa-solid fa-location-dot"></i> 12 Main Street East N.Y.C</p>
+          <p><i class="fa-solid fa-globe"></i> www.caferoyal.com</p>
+          <p><i class="fa-solid fa-envelope"></i> caferoyal@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 1245687990</p>
         </div>
+        <!-- Form Fields -->
+        <form>
+        <fieldset>
+        <label for="name"> Name
+          <input id="name" type="text" required />
+        </label>
+        <label for="email"> Email
+          <input id="email" type="email" required />
+        </label>
+        <label for="comment"> Message
+            <textarea id="comment" name="comment" rows="5" cols="30"></textarea>
+          </label>
+        </fielset>
+        <div class="bt"><a href="mailto:caferoyal@gmail.com">Send</a>  
+        </form>
        <!-- Contact Section End -->
       </main>
       <!-- Footer Section Start -->
