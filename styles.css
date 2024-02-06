@@ -224,7 +224,7 @@ p {
 
 .wrapper .box{
     background-color: #a7e5f9;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 25px;
     width: calc(33% - 10px);
     overflow: hidden;
@@ -250,6 +250,11 @@ p {
 .wrapper .box .stars {
     color:#0C2340;
    
+}
+
+.box-img img{
+    height: 80%;
+    width: 100%;
 }
 /************************************************************    Gallery     ***************************************************************/
 
@@ -379,7 +384,10 @@ form {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
+    padding: 2em;
+    background-color: #0C2340;
+    color: white;
+    border-radius: 8px;
   }
   
 fieldset {
@@ -422,7 +430,7 @@ textarea
     min-height: 60px;
     width: auto;
     margin: 0;
-    background-color:#6f0974;
+    background-color:#007ea7;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -448,10 +456,7 @@ ul{
 ul>p{
     padding-bottom: 5px;
     font-weight: bold;
-    text-decoration: underline 2px;
-    text-decoration-color: white;
-    text-underline-offset: 5px;
-       
+          
 }
 
 .footer a {
