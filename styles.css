@@ -122,18 +122,6 @@ h1,h2{
     padding: 25px;
 }
 
-.banner{
-    height:100vh;
-    background: url('images/Banner.jpg');
-    background-size:cover;
-    position:relative;
-}
-.banner-text{
-    color:white;
-    text-align: center;
-    font-family: pacifico;
-    font-weight: bolder;
-}
 /***********************************************************     About     ***********************************************************************/
 .about-content{
    max-width: 100%;
@@ -171,15 +159,14 @@ p {
 }
 
 
-@media only screen and (max-width: 1024px){
-.about{
+@media only screen and (min-width: 1199px){
+.about-content{
     display: flex;
-    flex-direction: column;
     width: 100%;
 }}
     
 @media only screen and (max-width: 600px){
-.about {
+.about-content {
     display:flex;
     flex-direction: column;
     padding: 10px;
@@ -255,6 +242,7 @@ p {
 .box-img img{
     height: 80%;
     width: 100%;
+    border-radius: 8px;
 }
 .box-text{
     font-weight: bold;
@@ -377,17 +365,12 @@ p {
 .contact p{
     font-weight: bold;
 }
-.info,.address{
-    text-align: center;
-    margin-top: 10px;
-
-}   
 
 form {
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
-    margin: 0 auto;
+    margin: 25px auto;
     padding: 2em;
     background-color: #0C2340;
     color: white;
@@ -410,7 +393,6 @@ textarea
         min-height: 2em;
 
         }  
-
 
 
 
