@@ -20,7 +20,7 @@ width: 1200px;
 /***************************************************************    Navbar    **********************************************************************/
 .nav {
     background:#362d28;
-    height: 100px;
+    height:100px;
     width: 100%;
     position:relative;
     
@@ -31,12 +31,14 @@ width: 1200px;
     left: 0;
 }
 .nav ul{
+    
     float: right;
     margin-right: 20px;
+    margin-top: -110px;
 }
 
 .nav ul li{
-    display: inline-block;
+     display: inline-block;
     line-height: 100px;
     margin: 0 5px;
 }
@@ -49,12 +51,13 @@ width: 1200px;
 }
 
 .nav a.active,.nav a:hover{
+    text-transform: uppercase;
     border-bottom: #F2F2F2 solid 2px;
-   
+      
 
 }
 .checkbtn{
-    
+    color: #F2F2F2;
     font-size: 30px;
     float: right;
     line-height: 100px;
@@ -67,10 +70,7 @@ width: 1200px;
 }
 
 @media (max-width: 952px) {
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-    }
+    
       
     .nav ul li a{
         font-size: 16px;
@@ -100,8 +100,9 @@ width: 1200px;
         font-size: 20px;
     }
     a:hover,a.active{
+        text-transform: uppercase;
         border-bottom: #F2F2F2 solid 2px;
-             
+                    
     }
     #check:checked ~ ul{
         left:0;
@@ -110,11 +111,10 @@ width: 1200px;
 }
 
 h1{
-    font-size: 40px;
+    
     height: 100px;
-    width: auto;
     background-image:url(images/Title\ Banner.png);
-    color:#F2F2F2;
+    color:#9f500b;
     margin: 50px auto;
     border-radius:8px;
     padding: 25px;
@@ -122,7 +122,9 @@ h1{
     font-family: 'courgette';
 }
 
-
+h2{
+    margin-bottom: 25px;
+}
 /***********************************************************     About     ***********************************************************************/
 .about-content{
    max-width: 100%;
@@ -246,6 +248,10 @@ p {
 .box-text{
     font-weight: bold;
     padding-top:10px;
+}
+
+.testemonial{
+    margin-top: 25px;
 }
 /************************************************************    Gallery     ***************************************************************/
 
@@ -393,7 +399,13 @@ textarea
         min-height: 2em;
 
         }  
+.thanks{
+    text-align: center;
+}
 
+.map-loc {
+    margin-bottom: 20px;
+}
 
 /**********************************************************************     Footer    ********************************************************************************/
 
@@ -404,7 +416,7 @@ textarea
     justify-items: center;
     width: 100%;
     height: auto;
-    background-color:#362d28;  
+    background-color:#1d1715;  
     color: #f2f2f2;
     
 }
@@ -412,7 +424,7 @@ textarea
     min-height: 60px;
     width: auto;
     margin: 0;
-    background-color:#007ea7;
+    background-color:#023547;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -422,6 +434,7 @@ textarea
 
 .content p{
     padding:2px 15px;
+    font-weight: bold;
    }
 
 .infos {
