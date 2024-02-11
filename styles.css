@@ -122,8 +122,8 @@ h1{
     font-family: 'courgette';
 }
 
-h2{
-    margin-bottom: 25px;
+h2, h3{
+    margin: 25px auto;
 }
 /***********************************************************     About     ***********************************************************************/
 .about-content{
@@ -215,8 +215,10 @@ p {
     border-radius: 8px;
     padding: 25px;
     width: calc(33% - 10px);
+    height: auto;
     overflow: hidden;
     cursor:pointer;
+      
 
 }
 
