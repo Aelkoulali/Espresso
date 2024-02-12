@@ -123,7 +123,9 @@ h1{
 }
 
 h2, h3{
+    font-family: 'courgette';
     margin: 25px auto;
+    text-align: center;
 }
 /***********************************************************     About     ***********************************************************************/
 .about-content{
@@ -183,7 +185,7 @@ p {
     padding: 15px 32px;
     box-sizing:content-box;
     width: 100px;
-    margin: 50px auto 50px auto;
+    margin: 25px auto;
     border-radius: 8px;
     text-align: center;
     font-weight: bold;
@@ -211,13 +213,14 @@ p {
 }
 
 .wrapper .box{
-    background-color: #a7e5f9;
+    background-color: #1d1715;
     border-radius: 8px;
     padding: 25px;
     width: calc(33% - 10px);
     height: auto;
     overflow: hidden;
     cursor:pointer;
+    color: #F2F2F2;
       
 
 }
@@ -234,11 +237,11 @@ p {
     font-weight: bold;
     font-size: 17px;
     padding: 5px;
-    color:#0C2340;
+    color:#F2F2F2;
 }
 
 .wrapper .box .stars {
-    color:#0C2340;
+    color:#9f500b;
    
 }
 
@@ -248,6 +251,7 @@ p {
     border-radius: 8px;
 }
 .box-text{
+    color: #F2F2F2;
     font-weight: bold;
     padding-top:10px;
 }
@@ -380,7 +384,7 @@ p {
     min-width: 300px;
     margin: 25px auto;
     padding: 2em;
-    background-color: #0C2340;
+    background-color: #1d1715;
     color: white;
     border-radius: 8px;
   }
@@ -456,9 +460,13 @@ ul>p{
           
 }
 
+
 .footer a {
     color: #fff;
     padding: 10px;
 }
 
+.footer  li:hover {
+    color:#9f500b;
+}
 
