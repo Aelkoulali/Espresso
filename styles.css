@@ -28,11 +28,13 @@ max-width: 1224px;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #F2F2F2;
-    font-weight: bolder;
+   
+    
     
 }
 
@@ -43,6 +45,20 @@ max-width: 1224px;
    
 }
 
+.welcome > p{
+    font-family: 'Courgette';
+    font-size: 60px;
+    font-weight: bolder;
+    color: #120500;
+        
+}
+
+@media screen and (max-width:600px){
+    .welcome > p{
+        font-size: 30px;
+    }
+    
+}
 /***************************************************************    Navbar    **********************************************************************/
 .nav {
     background:#362d28;
@@ -137,8 +153,6 @@ max-width: 1224px;
 }
 
 h1{
-    font-size:65px;
-    margin: auto;
     vertical-align: middle;
     text-align: center;
     font-family: 'courgette';
@@ -159,7 +173,7 @@ h2, h3{
    gap: 25px;
    }   
 
-p {
+.about-contnet > p {
     font-size:large;
 }
 
@@ -625,6 +639,7 @@ textarea
     flex-wrap:wrap;
     justify-content: center;
     font-size: 21px;
+    font-weight: bold;
     padding-top: 15px;
     color: #F2F2F2;
     cursor: pointer;
