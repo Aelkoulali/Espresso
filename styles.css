@@ -161,10 +161,6 @@ h1{
 }
 
 
-h2, h3{
-    margin: 25px 0;
-   
-}
 /***********************************************************     About     ***********************************************************************/
 .about-content{
    max-width: 100%;
@@ -467,6 +463,8 @@ h2, h3{
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #362d28;
+    
    } 
 
 .map{
@@ -582,14 +580,15 @@ textarea
     position: relative;
     justify-content: center;
     justify-items: center;
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    height: 100%;
     background-color:#1d1715;  
     color: #f2f2f2;
+    top:0;
     
 }
 .social {
-    min-height: 60px;
+   min-height: 80px;
     width: auto;
     margin: 0;
     display: flex;
@@ -597,40 +596,59 @@ textarea
     justify-content: center;
     font-size: 21px;
     font-weight: bold;
-    padding-top: 15px;
+    padding-top: 35px;
     color: #F2F2F2;
     cursor: pointer;
 }
 
-.content p{
-    padding:2px 15px;
-    font-weight: bold;
-   }
-
+.content {
+    display: flex;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
 .infos {
+    width: 100%;
+    height: auto;
     padding: 15px 50px;
     display: flex;
     justify-content:space-around;
-}
-
-ul{
-    list-style-type:none;
-    padding-bottom: 5px;
-   
-}
-ul>p{
-    padding-bottom: 5px;
-    font-weight: bold;
-          
+    padding: 20px;
 }
 
 
-.footer a, .links a {
+.infos p, .links a {
     color: #fff;
-    padding: 10px;
+    
 }
 
-.footer  li:hover {
+.infos p:hover {
     color:#912603;
 }
+@media (max-width:700px){
+    .footer {
+       position: relative; 
+       display: grid;
+       max-width: 100%;
+       
+    }
 
+    .social{
+        width: 100%;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .infos{
+        width: 100%;
+        display :flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+        height: auto;
+       
+    }
+
+    .info_contact, .info_time, .info_team {
+        margin-bottom:15px;
+
+    } 
+}
