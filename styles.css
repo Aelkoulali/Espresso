@@ -42,9 +42,14 @@ max-width: 1224px;
     font-size: 35px;
 }
 
+.welcome >P {
+    font-size: 50PX;
+    font-weight: bold;
+    color: #f2f2f2;
+}
 @media screen and (max-width:600px){
     .welcome > p{
-        font-size: 55px;
+        font-size: 35px;
     }
     .welcome .links a {
         font-size: 25px;
@@ -52,29 +57,6 @@ max-width: 1224px;
     
 }
 
-.jump {
-    position: relative;
-    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-    font-size: 60px;
-  }
-.jump span {
-    font-family: 'Alfa Slab One', cursive;
-    position: relative;
-    display: inline-block;
-    color: #fff;
-    text-transform: uppercase;
-    animation: jump 1s infinite;
-    animation-delay: calc(.1s * var(--i));
-    
-  }
-  @keyframes jump {
-    0%,40%,100% {
-      transform: translateY(0)
-    }
-    20% {
-      transform: translateY(-20px)
-    }
-  }
 /***************************************************************    Navbar    **********************************************************************/
 .nav {
     background:#352C28;
@@ -158,7 +140,7 @@ max-width: 1224px;
     .nav ul li a{
         font-size: 20px;
     }
-    a:hover,a.active{
+    .nav >a:hover,.nav>a.active{
         text-transform: uppercase;
         border-bottom: #F2F2F2 solid 2px;
                     
@@ -259,18 +241,18 @@ h1{
    
 .bt {
     
-    background-color: rgb(0, 98, 255);
+    background-color:#912603;
     cursor: pointer;
     padding: 15px 32px;
     box-sizing:content-box;
-    width: 100px;
+    width: 150px;
     margin: 10px auto;
     border-radius: 8px;
     text-align: center;
     font-weight: bold;
 }
 .bt:hover {
-    background-color:rgb(18, 184, 244) ;
+    background-color:#9f500b ;
     box-shadow:  0 5px 15px rgba(0, 0, 0, 0.8);
 }
 .bt a {
@@ -348,8 +330,8 @@ h1{
         font-size: 13px;
     }
 }    
-/************************************************************    Services    ***************************************************************/
-.services{
+/************************************************************        Menu        ***************************************************************/
+.menu{
     max-width:100%;
 }
 .menu_top >img{
@@ -358,19 +340,19 @@ h1{
     max-height:500px;
        
 } 
-.menu{
+.menu_type{
     width:100%;
     height:100%;
     padding: 15px;
     display:flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
        
 }
 
 .menu_title{
     text-align: center;
-    text-underline-offset: 2px solid; 
+    
 }
 
 .Coffee, .Non_Coffee, .Pastries{
@@ -380,37 +362,98 @@ h1{
     align-items: center;
     flex-direction: column;
     color:#912603;
-    
    
      
 }
 
 .name{
     width:100%;
+    min-height: 45px;
     display: flex;
     justify-content: space-between;
-    border:2px solid #343C4C;
-    padding:10Px;
-    margin: 5px;
+    vertical-align: middle;
+    max-width: 100%;
+    width: 380px;
+    margin: 35px 0 -15px 0;
+    padding:10px;
+    padding-top: 0;
+    padding-bottom: 0;
     border-radius: 8px;
-    margin:20px;
-    background-color:#D4B48C;
-    color:black;
+    background-color:#9f500b;
+    color:white;
+    overflow: hidden;
     
 }
 
 .name_title{
     padding-left: -20px;
+    padding-top: 8px;
     left:0;
+    font-size:20px;
+}
+
+.name_price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    right:0;
+    flex:1;
+    
+  }
+
+.name_selection {
+  background-color: #008080;
+  margin: -16px -80px -16px 16px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+
+}
+.name:hover .name_selection {
+    margin-right: -10px;
+}
+
+.name_icon{
+  height: 25px;
+  width: 25px;
+  color: #008080;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100px;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.name:hover .name_icon{
+    -webkit-transform: rotate(0);
+  transform: rotate(0);
 }
 
 @media (max-width:858px){
-    .services{
+    .menu{
         max-width:100%;
             
     }
 
-    .menu{
+    .menu_type{
         width:100%;
         display: flex;
         flex-direction: column;
@@ -436,11 +479,11 @@ h1{
 }
 
 @media screen and (max-width: 500px) and (min-width: 320px) {
-    .services{
+    .menu{
         max-width:100%;
     }
 
-    .menu{
+    .menu_type{
         width:100%;
         gap: 10px;
         margin-bottom: 10px;
@@ -499,7 +542,7 @@ h1{
    } 
 
 .contact_top {
-    background:#008080;
+    background:#9f500b;
     max-width:1224px;
     max-height:500px;
     object-fit: cover;
@@ -682,7 +725,7 @@ textarea
     justify-content:space-around;
     padding: 20px;
 }
-.info_contact, .info_time, .info_team{
+.info_contact, .info_time, .info_team, .info_order{
     padding-top: 10px;
 }
 
@@ -691,16 +734,27 @@ textarea
     
 }
 
-.infos p:hover {
+.infos p:hover, .links a:hover {
     color:#912603;
-}.copyright {
+}
+.copyright {
     display: flex;
     justify-content: center;
     align-items: center;
     padding:15px;
 
 }
-@media (max-width:700px){
+.sc{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    padding: 10px;
+}
+
+@media (max-width:780px){
     .footer {
        position: relative; 
        display: grid;
@@ -714,6 +768,12 @@ textarea
         font-size: 21px;
     }
 
+    .social p{
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
     .infos{
         width: 100%;
         display :flex;
@@ -723,15 +783,17 @@ textarea
        
     }
 
-    .info_contact, .info_time, .info_team {
+    .info_contact, .info_time, .info_team, .info_order{
         margin-bottom:15px;
 
-    } 
+    }
+    
+    
 }
 
 @media only screen and (max-width: 500px){
     .links a {
-        padding: 18px 10px 10px 10px;
+        padding: 10px;
         vertical-align: middle;
         font-size: 19px
     }

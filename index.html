@@ -23,33 +23,27 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li><a href="menu.html">Menu</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           </div>
           <section class="welcome">
-            <div class="jump">
-              <span style="--i:1">W</span>
-              <span style="--i:2">E</span>
-              <span style="--i:3">L</span>
-              <span style="--i:4">C</span>
-              <span style="--i:5">O</span>
-              <span style="--i:6">M</span>
-              <span style="--i:7">E</span>
-            </div>            
             <div class="about-img">
               <img src="images/About/about.jpg" alt="logo">
             </div>
-           <div class="social">
-           <div class="links">
+            <p>EXPERIENCE <span style="color:#912603;">COFFEE</span></p>
+            <P>LIKE NEVER BEFORE</p>
+            <div class="bt"><a href="menu.html">Explore Our Menu</a></div> 
+            <div class="social">
+            <div class="links">
             <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             <a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
             </div>
-          </div>
+            </div>
           </section>
         <Main>
           <!-- About Section Start -->
@@ -128,12 +122,12 @@
           <div class="bt"><a href="#">Read More</a></div>
         <!-- About Section end -->
         <!-- Services Section start -->
-        <section class="services">
+        <section class="menu">
           <!-- Menu Start-->
           <div class="menu_top">
             <img src="images/Services/Menu.jpg" alt="Coffee Tea">
             </div>
-            <div class="menu">
+            <div class="menu_type">
               <div class="Coffee">
                 <h3>COFFEE</h3>
                 <div class="name">
@@ -288,7 +282,7 @@
                 </div>
               </div>
             </div>    
-             <div class="bt"><a href="#">Order Now</a></div>
+            <div class="bt"><a href="#">Order Now</a></div>
           </section>            
         <!-- Services Section End -->
         <!-- Gallery Section Start -->
@@ -307,75 +301,111 @@
        <div class="bt"><a href="#">See More</a></div>
         <!-- Gallery Section End -->
         <!-- Contact Section Start -->
-       <h1>Contact Us</h1>
-       <section class="contact">
-        <!-- Form Fields -->
-        <div class="message">
-          <p></p>
-        <form>
-        <fieldset>
-        <label for="name"> Name
-          <input id="name" type="text" required placeholder="name"/>
-        </label>
-        <label for="email"> Email
-          <input id="email" type="email" required placeholder="email"/>
-        </label>
-        <label for="comment"> Message
-            <textarea id="comment" name="comment" rows="5" cols="30" placeholder="write something..."></textarea>
-          </label>
-        </fielset>
-        <div class="bt"><a href="mailto:caferoyal@gmail.com">Send</a></div>
-        <div class="thanks">
-        <p>We appreciate your interest in Café Royal and would like to start by thanking you for contacting us.</p>
-        <div class="logo"><img src="images/logo.svg" alt="Logo Company"  height="100px"></div>
-        </div>
-        </form>
-        </div>
+        <section class="contact">
+          <div class="contact_top">
+           <h1>Contact Us</h1>
+          <div class="contact_info">
+          <div class="contact_loc">
+           <p><i class="fa-solid fa-location-dot"></i> 60 Main Street N.Y.C</p>
+           <p><i class="fa-solid fa-globe"></i> www.caferoyal.com</p>
+           <p><i class="fa-solid fa-envelope"></i> caferoyal@gmail.com</p>
+           <p><i class="fa-solid fa-phone"></i> 1245687990</p>
+          </div>
+          <div class="contact_time">
+           <p><i class="fa-regular fa-calendar-days"></i> Monday-Saturday</p>
+           <p><i class="fa-regular fa-clock"></i> 07:00 am - 07:00 pm</p>
+           <p><i class="fa-solid fa-shop-lock"></i> Closed Sunday</p>
+           <p>& Federal Holidays</p>
+          </div>
+          </div>
+          </div>
+          <!-- Map Localisation-->
+          <section class="map_message">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8665521149946!2d-73.8282879235352!3d40.742961835718795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2606f670f8625%3A0x9960c6695ebb34a5!2s60-06%20Main%20St%2C%20Flushing%2C%20NY%2011355%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1708807637188!5m2!1sfr!2sfr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <!-- Form Fields -->
+          <div class="message">
+            <forma autocomplete="on" >
+              <h2>Get in Touch</h2>
+              <fieldset>
+                <label for="name"> Name
+                  <input id="name" type="text" required placeholder="name">
+                </label>
+                <label for="email"> Email
+                    <input id="email" type="email" required placeholder="email">
+                </label>
+                <label for="phone"> Phone
+                    <input id="phone" type="phone" placeholder="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                </label>
+                <label for="comment"> Message
+                    <textarea id="comment" name="comment" rows="5" cols="30" placeholder="write something..."></textarea>
+                </label>
+              </fieldset>
+              <div class="bt"><a href="mailto:caferoyal@gmail.com">Send</a></div>
+            </form>
+          </div>
+          </section>
         </section>
-       <!-- Contact Section End -->
+        <!-- Contact Section End -->
         </main>
         <!-- Footer Section Start -->
-      <section class="footer">
-        <!--Social Icons-->
-        <div class="social">
-          <div class="content">
-            <h3>Follow Us</h3>
+        <section class="footer">
+          <!--Contact & Infos Start-->
+          <div class="infos">
+            <div class="info_contact">
+              <h3>CONTACT</h3>
+              <hr width="100%" size="1" style="margin: 10px 0">
+              <p><i class="fa-solid fa-location-dot"></i> 60 Main Street N.Y.C</p>
+              <p><i class="fa-solid fa-globe"></i> www.caferoyal.com</p>
+              <p><i class="fa-solid fa-envelope"></i> caferoyal@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> 1245687990</p>
+            </div>  
+            <div class="info_time">
+              <h3>OPENNING HOURS</h3>
+              <hr width="100%" size="1" style="margin: 10px 0">
+              <p><i class="fa-regular fa-calendar-days"></i> Monday-Saturday</p>
+              <p><i class="fa-regular fa-clock"></i> 07:00 am - 07:00 pm</p>
+              <p><i class="fa-solid fa-shop-lock"></i> Closed Sunday</p>
+              <p>& Federal Holiday</p>
+            </div>
+            <div class="info_team">
+              <h3>COMPANY</h3>
+              <hr width="100%" size="1" style="margin: 10px 0">
+              <p>Our Story</p>
+              <p>News</p>
+              <p>Events<p>
+              <p>Press</p>
+            </div>
+            <div class="info_order">
+              <h3>Order and Pick Up</h3>
+              <hr width="100%" size="1" style="margin: 10px 0">
+              <p>Order on the App</p>
+              <p>Order on the Web</p>
+              <p>Delivery<p>
+              <p>Options</p>
+            </div>
           </div>
+          <!--Contact & Infos End -->
+          <hr width="100%" size="1" >
+          <!--Social Icons -->
+          <div class="social">
           <div class="links">
-          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-          </div>
-        </div>
-        <!--Contact & Infos Start-->
-        <div class="infos">
-          <div class="info_contact">
-            <h4>CONTACT</h4>
-            <p><i class="fa-solid fa-location-dot"></i> 60 Main Street N.Y.C</p>
-            <p><i class="fa-solid fa-globe"></i> www.caferoyal.com</p>
-            <p><i class="fa-solid fa-envelope"></i> caferoyal@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i> 1245687990</p>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
           </div>  
-          <div class="info_time">
-            <h4>OPENNING HOURS</h4> 
-            <p><i class="fa-regular fa-calendar-days"></i> Monday-Saturday
-            <p><i class="fa-regular fa-clock"></i> 07:00 am - 07:00 pm
-            <p><i class="fa-solid fa-shop-lock"></i> Closed Sunday
-            <p><i class="fa-regular fa-copyright"></i> Café Royal 2024
           </div>
-          <div class="info_team">
-            <h4>ABOUT</h4>  
-            <p>Bio</p>
-            <p>News</p>
-            <p>Events<p>
-            <p>Press</p>
+          <!-- Copyright -->
+          <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i> Café Royal 2024 - All rights reserved</p>
           </div>
-        </div>
-      <!--Contact & Infos End-->
-      </section>
-      <!-- Footer Section End -->
+          </div>
+        </section>
+       <!-- Footer Section End -->
         <!-- Javascript Files -->
         <script src="script/script.js"></script>
       </body>
