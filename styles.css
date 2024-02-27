@@ -1,14 +1,13 @@
 /**************************************************************   Import Fonts   ********************************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap');
+
 /* Skeleton */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'Dancing Script', 'pacifico','courgette', sans-serif;
+    font-family: 'Poppins', 'Dancing Script', sans-serif;
      
 }
 
@@ -34,9 +33,15 @@ max-width: 1224px;
     justify-content: center;
     align-items: center;
    
-    
 }
 
+.about_img img {
+    width:100%;
+    object-fit: cover;
+    height: 450px;
+    width: 450px;
+    margin-bottom: -60px;
+}
 
 .welcome .links a {
     font-size: 35px;
@@ -161,66 +166,42 @@ h1{
 
 
 /***********************************************************     About     ***********************************************************************/
-.about-content{
-   max-width: 100%;
-   padding: 0%;
-   display:flex;
-   padding: 50px;
-   gap: 25px;
-   }   
-
-.about-contnet > p {
-    font-size:large;
+.about_top, .about_mid {
+    width:100%;
+    height: 400px;
+    display: flex;
+            
 }
 
-.top {
-    max-width: 100%;
-    height: auto;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    margin: 25px auto; 
-    padding-right:150px;
-}
-
-
-
-.about-text {
-    
+.about_text, .mid_text {
+    width: 100%;
+    width: 600px;
+    height: 400px;
     line-height: 1.5;
     font-weight:500;
-    width: 100%;
+    background-color: #008080;
+    padding: 10px 30px;
+    justify-content: center;
     
         
 }
 
-.about-img img{
-    width: 100%;
-    min-width: 400px;
-    object-fit: cover;
-    box-sizing: border-box;
-    height: 300px;
+.about_text p, .mid_text p{
+    color: white;
+    font-size: 17px;
     
+}
+
+.about_shop img, .mid_pic img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    width:600px ;
+   
          
 }
+ 
 
-.shop {
-    max-width:100%;
-    height: auto;
-    margin: 25px auto;
-       
-}
-
-
-.shop > img {
-    object-fit: cover;
-    margin: auto;
-    display: block;
-    justify-content: center;
-    justify-items: center;
-    width:100%;
-       
-}
 
 @media only screen and (min-width: 992px){
 .about-content{
