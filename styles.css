@@ -41,6 +41,7 @@ max-width: 1224px;
     height: 450px;
     width: 450px;
     margin-bottom: -60px;
+    top:0;
 }
 
 .welcome .links a {
@@ -58,6 +59,12 @@ max-width: 1224px;
     }
     .welcome .links a {
         font-size: 25px;
+    }
+
+    .about_img img {
+        width:100%;
+        height: 280px;
+        width: 280px;
     }
     
 }
@@ -170,6 +177,7 @@ h1{
     width:100%;
     height: 400px;
     display: flex;
+    margin:32px auto;
             
 }
 
@@ -179,13 +187,18 @@ h1{
     height: 400px;
     line-height: 1.5;
     font-weight:500;
-    background-color: #008080;
     padding: 10px 30px;
     justify-content: center;
-    
         
 }
 
+.about_text{
+    background-color:#008080;
+}
+
+.mid_text{
+    background-color:#9f500b; 
+}
 .about_text p, .mid_text p{
     color: white;
     font-size: 17px;
