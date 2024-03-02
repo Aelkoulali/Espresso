@@ -556,8 +556,7 @@ h1, h2, h3, h4{
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #362d28;
-    
+        
    } 
 
 .contact_top {
@@ -569,7 +568,8 @@ h1, h2, h3, h4{
     display: flex;
     flex-direction: column;
     padding-bottom:20px;
-            
+    margin: 25px 0;
+               
 } 
 
 .contact_info {
@@ -582,12 +582,13 @@ h1, h2, h3, h4{
     width:100%;
     height: 600px;
     display: flex;
-        
+    margin: 25px 0;
+           
 }
 
 .map{
    width:100%;
-   height:100%;
+   height: 600px;
    position: relative;
    padding-bottom: 50%;
    overflow:hidden;
@@ -608,21 +609,21 @@ h1, h2, h3, h4{
     justify-content: center;
     align-items: center;
     color: white;
-    border-radius: 8px;
     top: 0;
     bottom: 0;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #008080;
 
 }
 
 form{
     width:100%;
-    height: 100%;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+      
      
   }
 
@@ -754,7 +755,7 @@ textarea
 }
 
 .infos p:hover, .links a:hover {
-    color:#912603;
+    color:#9f500b;
 }
 .copyright {
     display: flex;
