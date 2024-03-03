@@ -406,7 +406,6 @@ h1, h2, h3, h4{
 
 .name_title{
     padding-left: -20px;
-    padding-top: 8px;
     left:0;
     font-size:20px;
 }
@@ -416,7 +415,7 @@ h1, h2, h3, h4{
     justify-content: flex-end;
     align-items: flex-end;
     padding-left: 10px;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
     font-size: 20px;
     right:0;
     flex:1;
