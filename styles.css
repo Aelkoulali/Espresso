@@ -1,16 +1,14 @@
 /**************************************************************   Import Fonts   ********************************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 /* Skeleton */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'Dancing Script', sans-serif;
+    font-family: 'Poppins', sans-serif;
      
 }
-
 
 main{
 margin-left: auto;
@@ -53,6 +51,7 @@ max-width: 1224px;
     font-weight: bold;
     color: #f2f2f2;
 }
+
 @media screen and (max-width:600px){
     .welcome > p{
         font-size: 35px;
@@ -66,7 +65,7 @@ max-width: 1224px;
         height: 280px;
         width: 280px;
     }
-    
+ 
 }
 
 /***************************************************************    Navbar    **********************************************************************/
@@ -247,7 +246,6 @@ h1, h2, h3, h4{
    }
 
 } 
-
    
 .bt {
     
@@ -277,7 +275,6 @@ h1, h2, h3, h4{
     justify-content: space-between;
     height: auto;
 }
-
 .wrapper .box{
     background-color: #1d1715;
     border-radius: 8px;
@@ -288,8 +285,6 @@ h1, h2, h3, h4{
     overflow: hidden;
     cursor:pointer;
     color: #F2F2F2;
-      
-
 }
 
 .wrapper .box:hover{
@@ -333,13 +328,15 @@ h1, h2, h3, h4{
         display: flex;
         flex-direction: column;
         width: 100%;
-    }}
+    }
+}
 
 @media only screen and (max-width: 500px){
     .wrapper .box p{
         font-size: 13px;
     }
 }    
+
 /************************************************************        Menu        ***************************************************************/
 .menu{
     max-width:100%;
@@ -587,7 +584,7 @@ h1, h2, h3, h4{
 
 .map{
    width:100%;
-   height: 600px;
+   max-height: 600px;
    position: relative;
    padding-bottom: 50%;
    overflow:hidden;
@@ -696,10 +693,12 @@ textarea
     }
     
 }
-
     
 /**********************************************************************     Footer    ********************************************************************************/
-
+hr {
+    width: 100%;
+    margin: 10px 0;
+}
 .footer {
     display: block;
     position: relative;
@@ -806,8 +805,7 @@ textarea
         margin-bottom:15px;
 
     }
-    
-    
+     
 }
 
 @media only screen and (max-width: 500px){
