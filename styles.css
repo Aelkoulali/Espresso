@@ -634,6 +634,7 @@ hr {
     top:0;
     
 }
+
 .social {
    min-height: 60px;
     width: auto;
@@ -647,6 +648,7 @@ hr {
     
     
 }
+
 .links a {
     padding: 25px 10px 10px 10px;
     vertical-align: middle;
@@ -658,6 +660,7 @@ hr {
     vertical-align: middle;
     padding-bottom: 10px;
 }
+
 .infos {
     width: 100%;
     height: auto;
@@ -666,18 +669,19 @@ hr {
     justify-content:space-around;
     padding: 20px;
 }
+
 .info_contact, .info_time, .info_team, .info_order{
     padding-top: 10px;
 }
 
 .infos p, .links a {
     color: #fff;
-    
 }
 
 .infos p:hover, .links a:hover {
     color:#9f500b;
 }
+
 .copyright {
     display: flex;
     justify-content: center;
