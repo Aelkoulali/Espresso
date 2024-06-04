@@ -169,6 +169,7 @@ h1, h2, h3, h4{
 
 /***********************************************************     About     ***********************************************************************/
 .about_us {
+    display: grid;
     margin: 30px auto;
     padding: 0;      
 }
@@ -181,22 +182,18 @@ h1, h2, h3, h4{
     margin: 0px auto;
     width: 100%;
     text-align: center;
+    color : white;
 }
 .shop {
     display: flex;
 }
-.about_shop {
+.about_shop,.about_mid,.gift_text,.gift_card  {
     display: flex;
     max-width: 50%;
     margin: 0px;
 }
 
-.about_mid   {
-    display: flex;
-    max-width: 50%;
-    margin: 0px;
-    
-}
+
 
 .about_shop img, .about_mid img, .gift_card img{
     max-width: 100%;
