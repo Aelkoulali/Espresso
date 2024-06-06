@@ -175,27 +175,28 @@ h1, h2, h3, h4{
 }
 
 
-.about_text{
+.about_text, .gift_text{
     background-color:#008080;
     display: inline-block;
-    padding: 120px 0;
+    padding: 50px 0;
     margin: 0px auto;
     width: 100%;
     text-align: center;
     color : white;
 }
-.shop {
+.shop,.reward {
     display: flex;
 }
-.about_shop,.about_mid,.gift_text,.gift_card  {
-    display: flex;
+.about_shop,.about_mid,.gift_card,.reward_card  {
+    display: inline-block;
     max-width: 50%;
-    margin: 0px;
+    min-height: 400px;
+    
 }
 
 
 
-.about_shop img, .about_mid img, .gift_card img{
+.about_shop img, .about_mid img, .gift_card img, .reward_card img{
     max-width: 100%;
     object-fit: cover;
               
