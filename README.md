@@ -1,3 +1,3 @@
-# CAFE-ROYAL
-# Responsive Coffee Shop Website 
+# 🗂️ Cafe Royal ☕🥯
+## Responsive Coffee Shop Website 
 ## HTML & CSS
