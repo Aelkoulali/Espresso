@@ -172,7 +172,8 @@ h1, h2, h3, h4{
     display: flex;
     flex-wrap: wrap;
     margin: 30px auto;
-    padding: 0;      
+    padding: 0; 
+    max-width: 100%;     
 }
 
 
@@ -185,12 +186,12 @@ h1, h2, h3, h4{
     text-align: center;
     color : white;
 }
-.shop,.reward {
+.reward {
     display: flex;
 }
-.about_shop,.about_mid,.gift_card,.reward_card  {
+.about_mid,.gift_card,.reward_card  {
     display: inline-block;
-    max-width: 50%;
+    max-width: 100%;
     min-height: 400px;
     
 }
