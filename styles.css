@@ -177,7 +177,7 @@ h1, h2, h3, h4{
 }
 
 
-.about_text, .gift_text{
+.about_text{
     background-color:#008080;
     display: inline-block;
     padding: 50px 0;
@@ -186,10 +186,8 @@ h1, h2, h3, h4{
     text-align: center;
     color : white;
 }
-.reward {
-    display: flex;
-}
-.about_mid,.gift_card,.reward_card  {
+
+.about_mid{
     display: inline-block;
     max-width: 100%;
     min-height: 400px;
