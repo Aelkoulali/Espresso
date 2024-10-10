@@ -173,9 +173,8 @@ h1, h2, h3, h4 {
     flex-wrap: wrap;
     margin: 30px auto;
     padding: 0; 
-    max-width: 100%;     
+    width: 100%;     
 }
-
 
 .about_text {
     background-color:#008080;
@@ -190,11 +189,8 @@ h1, h2, h3, h4 {
 .about_mid {
     display: inline-block;
     max-width: 100%;
-    min-height: 400px;
-    
+    min-height: 400px;    
 }
-
-
 
 .about_shop img, .about_mid img {
     max-width: 100%;
