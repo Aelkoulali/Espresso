@@ -78,33 +78,33 @@ max-width: 1224px;
     position: relative;
     left: 0;
 }
-.nav ul{
+.nav ul {
     
     float: right;
     margin-right: 20px;
     margin-top: -110px;
 }
 
-.nav ul li{
+.nav ul li {
      display: inline-block;
     line-height: 100px;
     margin: 0 5px;
 }
 
-.nav ul li a{
+.nav ul li a {
     color:#F2F2F2;
     text-decoration:none;
     font-weight: bold;
        
 }
 
-.nav a.active,.nav a:hover{
+.nav a.active,.nav a:hover {
     text-transform: uppercase;
     border-bottom: #F2F2F2 solid 2px;
       
 
 }
-.checkbtn{
+.checkbtn {
     color: #F2F2F2;
     font-size: 30px;
     float: right;
@@ -159,7 +159,7 @@ max-width: 1224px;
     }
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     vertical-align: middle;
     text-align: center;
     margin: 15px;
@@ -177,7 +177,7 @@ h1, h2, h3, h4{
 }
 
 
-.about_text{
+.about_text {
     background-color:#008080;
     display: inline-block;
     padding: 50px 0;
@@ -187,7 +187,7 @@ h1, h2, h3, h4{
     color : white;
 }
 
-.about_mid{
+.about_mid {
     display: inline-block;
     max-width: 100%;
     min-height: 400px;
@@ -196,7 +196,7 @@ h1, h2, h3, h4{
 
 
 
-.about_shop img, .about_mid img, .gift_card img, .reward_card img{
+.about_shop img, .about_mid img {
     max-width: 100%;
     object-fit: cover;
               
@@ -214,7 +214,7 @@ h1, h2, h3, h4{
     cursor: pointer;  
 }
 
-.card:hover{
+.card:hover {
     background-color: #2f1304;
 
 }
@@ -225,7 +225,7 @@ h1, h2, h3, h4{
     max-width: 100%;
     
 }  
-.about-content{
+.about-content {
     display: flex;
     max-width: 100%;
 }}
