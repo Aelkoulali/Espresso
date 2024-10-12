@@ -179,16 +179,18 @@ h1, h2, h3, h4 {
 .about_text {
     background-color:#008080;
     display: inline-block;
-    padding: 50px 0;
+    padding: 50px 15px;
     margin: 0px auto;
-    width: 100%;
-    text-align: center;
-    color : white;
+    width: 90%;
+    
+    
 }
 
 
 .about_shop img {
     max-width: 100%;
+    width:1220px; 
+    height: 400px;
     object-fit: cover;
               
 }
