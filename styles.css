@@ -27,8 +27,7 @@ max-width: 1224px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
-   
+    padding-bottom: 50px;   
 }
 
 .about_img img {
