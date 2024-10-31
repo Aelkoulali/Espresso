@@ -310,20 +310,20 @@ h1, h2, h3, h4 {
 }
 
 .name_icon{
-  height: 25px;
-  width: 25px;
-  color: #008080;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100px;
-  transform: rotate(360deg);
-  transition-duration: 0.5s;
+    height: 25px;
+    width: 25px;
+    color: #008080;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
 }
 
 .name:hover .name_icon{
-  transform: rotate(0);
+    transform: rotate(0);
 }
 
 @media (max-width:858px){
@@ -488,12 +488,12 @@ fieldset {
 
       
 input,
-textarea
-        {
-        margin: 10px 0 0 0;
-        width: 100%;
-        min-height: 2em;
-        border-radius: 8px;
+textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 8px;
+
     }  
 
 
