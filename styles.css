@@ -18,7 +18,7 @@ main{
 
 /**************************************************************     Welcome     **********************************************************************/
 .welcome {
-    background-color:#362923; 
+    background-color:black; 
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -68,7 +68,7 @@ main{
 /***************************************************************    Navbar    **********************************************************************/
 .nav {
     background:black;
-    height:100px;
+    height:80px;
     width: 100%;
     position:relative;
   
@@ -77,17 +77,18 @@ main{
 .logo img {
     position: relative;
     left: 0;
+    height: 73px;
 }
 .nav ul {
     
     float: right;
     margin-right: 20px;
-    margin-top: -110px;
+    margin-top: -80px;
 }
 
 .nav ul li {
-     display: inline-block;
-    line-height: 100px;
+    display: inline-block;
+    line-height: 72px;
     margin: 0 5px;
 }
 
@@ -100,7 +101,7 @@ main{
 
 .nav a.active,.nav a:hover {
     text-transform: uppercase;
-    border-bottom: #F2F2F2 solid 2px;
+    
       
 
 }
