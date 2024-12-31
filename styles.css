@@ -186,8 +186,7 @@ h1, h2, h3, h4 {
     color: #F2F2F2;  
 
 }
-
-.about_shop >img, .shop_pic >img {
+.shop_pic >img {
     width: 100%;
     height:auto;
     object-fit:cover;
@@ -247,7 +246,7 @@ h1, h2, h3, h4 {
 }
 
 .Coffee, .Non_Coffee, .Pastries{
-    width:100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,7 +256,7 @@ h1, h2, h3, h4 {
 }
 
 .name{
-    width:100%;
+    max-width:100%;
     min-height: 45px;
     display: flex;
     justify-content: space-between;
@@ -326,9 +325,9 @@ h1, h2, h3, h4 {
     transform: rotate(0);
 }
 
-@media (max-width:858px){
+@media (max-width:1224px){
     .menu{
-        max-width:100%;            
+        width:100%;            
     }
 
     .menu_type{
