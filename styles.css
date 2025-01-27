@@ -79,6 +79,7 @@ main{
     position: relative;
     left: 0;
     height: 80px;
+    margin-top: 7px;
 }
 .nav ul {
     
