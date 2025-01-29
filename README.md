@@ -3,4 +3,4 @@
 ## ➡️ Key Concepts:
 ## ✅ HTML CSS
 ## ✅ Responsive
-## ✅ Website
+## ✅ CSS Animations
