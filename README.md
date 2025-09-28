@@ -1,6 +1,6 @@
 # 🗂️ Cafe Royal ☕🥯
-## Coffee Shop Website 
 ## ➡️ Key Concepts:
+## ✅ Coffee Shop Website 
 ## ✅ HTML CSS
 ## ✅ Responsive
 ## ✅ CSS Animations
