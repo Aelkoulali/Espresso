@@ -109,15 +109,15 @@ main{
 
 .nav ul li {
     display: inline-block;
-    line-height: 72px; /* Match the navbar height */
+    line-height: 80px; /* Match the navbar height */
     margin: 0 5px;
-    position: relative;
+    position: relative;    
 }
 
 .nav ul li a {
     color: #F2F2F2;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 300;
     padding: 7px 13px;
     font-size: 18px;
     transition-duration: 0.5s;
@@ -126,6 +126,7 @@ main{
     display: inline-block;
     text-align: center;
     vertical-align: middle;
+    border-bottom: 2px solid transparent;
 }
 
 /* Active or Hover States */
@@ -133,6 +134,7 @@ main{
 .nav a:hover {
     text-transform: uppercase;
     padding-bottom: 5px;
+    border-bottom: #F2F2F2 solid 2px;
 }
 
 
