@@ -73,40 +73,46 @@ main{
     top: 0;
     left: 0;
     width: 100%;
+    height: 80px; /* Set height based on content */
     z-index: 10;
-    background: rgba(0, 0, 0, 0.3); /* transparent background */
+    background: rgba(0, 0, 0, 0.3); /* Transparent background */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 0 50px;
     box-sizing: border-box;
 }
 
-
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
 
 .logo img {
-    position: relative;
-    left: 0;
     height: 50px;
-    margin-top: 7px;
+    margin: 0;
 }
-.nav ul {    
+
+/* Navbar links */
+.nav ul {
     float: right;
     margin-right: 20px;
     padding: 0;
-    list-style: none;    
+    list-style: none;
 }
 
 .nav ul li {
     display: inline-block;
-    line-height: 72px;
+    line-height: 72px; /* Match the navbar height */
     margin: 0 5px;
     position: relative;
 }
 
 .nav ul li a {
-    color:#F2F2F2;
-    text-decoration:none;
+    color: #F2F2F2;
+    text-decoration: none;
     font-weight: 400;
     padding: 7px 13px;
     font-size: 18px;
@@ -115,15 +121,16 @@ main{
     text-transform: capitalize;
     display: inline-block;
     text-align: center;
-    vertical-align: middle;   
-
+    vertical-align: middle;
 }
 
-.nav a.active,.nav a:hover {
-    text-transform: uppercase;    
-    padding-bottom: 5px;      
-
+/* Active or Hover States */
+.nav a.active,
+.nav a:hover {
+    text-transform: uppercase;
+    padding-bottom: 5px;
 }
+
 
 .checkbtn {
     color: #F2F2F2;
