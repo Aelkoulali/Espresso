@@ -32,14 +32,14 @@ main{
     
 }
 
-.about_img img {
+.welcome_img img {
     width:100%;
     object-fit: cover;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     margin-bottom: 0;
     top:0;
-    border-radius: 100px;
+    
 }
 
 .welcome .links a {
