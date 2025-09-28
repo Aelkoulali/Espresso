@@ -98,15 +98,22 @@ main{
     color:#F2F2F2;
     text-decoration:none;
     font-weight: bold;
-       
+    padding: 7px 13px;
+    font-size: 18px;
+    transition-duration: 0.5s;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;              
 }
 
 .nav a.active,.nav a:hover {
-    text-transform: uppercase;
-    
-      
+    text-transform: uppercase;    
+    padding-bottom: 5px;      
 
 }
+
 .checkbtn {
     color: #F2F2F2;
     font-size: 30px;
@@ -162,13 +169,12 @@ main{
     }
 }
 
-h1 {
+.about_title, .gallery_title {
     vertical-align: middle;
     text-align: center;
     margin: 15px;
     color: #000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-size: 40px;
 }
 
 h2, h3, h4 {
