@@ -90,17 +90,18 @@ main{
     height: 50px;
     margin-top: 7px;
 }
-.nav ul {
-    
+.nav ul {    
     float: right;
     margin-right: 20px;
-    list-style: none;
+    padding: 0;
+    list-style: none;    
 }
 
 .nav ul li {
     display: inline-block;
     line-height: 72px;
     margin: 0 5px;
+    position: relative;
 }
 
 .nav ul li a {
@@ -114,7 +115,8 @@ main{
     text-transform: capitalize;
     display: inline-block;
     text-align: center;
-    vertical-align: middle;              
+    vertical-align: middle;   
+
 }
 
 .nav a.active,.nav a:hover {
