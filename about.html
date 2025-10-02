@@ -15,22 +15,25 @@
       </head>
       <body>
         <!-- NavBar -->
-        <div class="nav">
-          <input type="checkbox" id="check">
-          <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-          </label>
-          <div class="logo"><a href="index.html"><img src="images/Logo/Logo.png" alt="Logo Company" height="60"></a></div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        </div>
-        <main>
-        <!-- About Section Start -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/Logo/Logo.png" style="width: 50px; margin-left: 15px;" alt="Company Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+              <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>  
+        
+        <!-- About Section Start -->        
         <section class="about_us" id="about" >
           <h1 class="about_title">About Us</h1>
           <div class="about_text">
