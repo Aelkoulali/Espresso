@@ -98,7 +98,7 @@ main{
   width: 100%;
   z-index: 10;
   transition: background-color 0.5s ease;  
-}
+}  
 
 .navbar-logo {
     width: 50px;
@@ -114,13 +114,16 @@ nav {
     width: 100%;
     z-index: 100;
     backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
-    transition: background-color 0.5s ease;  
+    transition: background-color 0.5s ease;      
 }
+
 .navbar-nav .nav-link {
   color: #f2f2f2;
   font-size: 18px;
   text-transform: uppercase;
   transition: all 0.3s ease;
+    margin-right: 15px;
+    font-weight: 500;
 }
 
 .navbar-nav .nav-link:hover {
@@ -134,6 +137,16 @@ nav {
 }
 
 
+/* Mobile-only background */
+@media (max-width: 768px) {
+  .navbar-home {
+    background-color: rgba(20, 20, 20, 0.95); /* dark background */
+  }
+
+  .navbar-collapse {
+    background-color: rgba(20, 20, 20, 0.95); /* same for collapsed menu */
+  }
+}
 /***********************************************************     About     ***********************************************************************/
 
 .about_us {
