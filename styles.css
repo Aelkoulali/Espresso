@@ -112,10 +112,30 @@
     border-radius: 8px;
     color: white;
     padding: 5px 10px;
-    text-decoration: none;
-     
-    
+    text-decoration: none;            
 }
+
+.navbar-collapse {
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
 .navbar-brand {
     display: flex;
     align-items: center;
