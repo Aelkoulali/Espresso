@@ -9,16 +9,13 @@
     font-family: 'Poppins', sans-serif;     
 }
 
-main{
-    margin-left: 350px;
-    margin-right: 350px;
-}
+
 
 /**************************************************************     Welcome     **********************************************************************/
 .welcome {
   height: 100vh;
   max-width: 100%;
-  background: url('images/Home/Home2.png') no-repeat center center/cover;
+  background: url('images/Home/Home4.jpg') no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -88,45 +85,48 @@ main{
   position: absolute; /* or fixed-top in HTML */
   width: 100%;
   z-index: 10;
-  transition: background-color 0.5s ease;  
+  transition: background-color 0.5s ease;    
 }  
 
 .navbar-logo {
     width: 50px;
     margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
 
 }
-nav {
-    background-color: transparent;
-    height: 60px;
-    line-height: 60px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
-    transition: background-color 0.5s ease;      
-}
 
-.navbar-nav .nav-link {
+.nav-link {
   color: #f2f2f2;
   font-size: 18px;
   text-transform: uppercase;
   transition: all 0.3s ease;
-    margin-right: 15px;
-    font-weight: 500;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #9f500b;
-  transform: scale(1.1);
-}
-
-.navbar-nav .nav-link.active {
-  color: #9f500b;
+  margin-right: 15px;
   font-weight: bold;
 }
 
+.nav-link:hover {
+    color: #9f500b;  
+    transform: scale(1.1);
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+.navbar-toggler-icon {
+    color: #f2f2f2;
+}
 
 /* Mobile-only background */
 @media (max-width: 768px) {
@@ -139,51 +139,6 @@ nav {
   }
 }
 /***********************************************************     About     ***********************************************************************/
-
-.about_us {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 30px auto;
-    padding: 0; 
-    max-width: 100%;     
-}
-
-.about_text {
-    background-color:#2f1304;
-    display: inline-block;
-    padding: 50px 15px;
-    margin: 15px auto;
-    max-width: 100%;
-    color: #F2F2F2;  
-
-}
-.shop_pic >img {
-    width: 100%;
-    height:auto;
-    object-fit:cover;
-              
-}
-   
-.bt {
-    
-    background-color:#912603;
-    cursor: pointer;
-    padding: 15px 32px;
-    box-sizing:content-box;
-    width: 150px;
-    margin: 10px auto;
-    border-radius: 8px;
-    text-align: center;
-    font-weight: bold;
-}
-.bt:hover {
-    background-color:#9f500b ;
-    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.8);
-}
-.bt a {
-    text-decoration: none;
-    color: #fff;
-}
 
 /************************************************************        Menu        ***************************************************************/
 .menu{
