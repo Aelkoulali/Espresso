@@ -45,26 +45,38 @@
           </div>
         </nav>
         <section class="hero" style="background-image: url(images/About/Header.jpg); height: 300px; display: flex; align-items: center; justify-content: center; vertical-align: middle;">
-          <h1 class="hero_title" style="color: white">GALLERY</h1>
+          <h1 class="hero_title" style="color: white">RESERVATION</h1>
         </section>        
       <main>
-      <!-- Gallery Section Start -->
-       <section class="gallery_section">
-         <h1 class="gallery_title">Our Gallery</h1>
-         <div class="gallery">
-           <div class="item item1"><img src="images/Gallery/P1.jpg" alt="barista"></div>
-           <div class="item item2"><img src="images/Gallery/P2.jpg" alt="expresso"></div>
-           <div class="item item3"><img src="images/Gallery/P3.jpg" alt="coffee beans"></div>
-           <div class="item item4"><img src="images/Gallery/P4.jpg" alt="coffee cup"></div>
-           <div class="item item5"><img src="images/Gallery/P5.jpg" alt="coffee cups"></div>
-           <div class="item item6"><img src="images/Gallery/P6.jpg" alt="donuts nad coffee"></div>
-           <div class="item item7"><img src="images/Gallery/P7.jpg" alt="three persons drinking coffee"></div>
-           <div class="item item8"><img src="images/Gallery/P8.jpg" alt="coffee and cake"></div>
-           <div class="item item9"><img src="images/Gallery/P9.jpg" alt="coffee and laptop"></div>
-         </div>
-        <div class="bt"><a href="#">See More</a></div>
-      </section>
-      <!-- Gallery Section End -->
+      <!-- Reservation Section Start -->
+       <section class="reservation">
+         <h1 class="reservation_title">Make a Reservation</h1>
+         <form class="reservation_form">
+           <div class="mb-3">
+             <label for="name" class="form-label">Name</label>
+             <input type="text" class="form-control" id="name" required>
+           </div>
+           <div class="mb-3">
+             <label for="email" class="form-label">Email</label>
+             <input type="email" class="form-control" id="email" required>
+           </div>
+           <div class="mb-3">
+             <label for="date" class="form-label">Date</label>
+             <input type="date" class="form-control" id="date" required>
+           </div>
+           <div class="mb-3">
+             <label for="time" class="form-label">Time</label>
+             <input type="time" class="form-control" id="time" required>
+           </div>
+           <div class="mb-3">
+             <label for="guests" class="form-label">Number of Guests</label>
+             <input type="number" class="form-control" id="guests" required>
+           </div>
+           <button type="submit" class="btn btn-primary">Reserve Now</button>
+         </form>
+       </section>
+       <!-- Reservation Section End -->     
+       <!-- Gallery Section End -->
       </main> 
       <!-- Footer Section Start -->
       <section class="footer">
