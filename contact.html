@@ -47,11 +47,43 @@
         <section class="hero" style="background-image: url(images/About/Header.jpg); height: 300px; display: flex; align-items: center; justify-content: center; vertical-align: middle;">
           <h1 class="hero_title" style="color: white">CONTACT US</h1>
         </section>
-          
-       <main>
-       <!-- Contact Section Start -->
-     
-        <!--Contact & Infos End -->
+        <main>
+          <!-- Contact Section Start -->
+            <section class="contact-section">
+              <div class="container">
+                <div class="row">
+                  <!-- Contact Form -->
+                  <div class="col-lg-6">
+                  <h2>Contact Us</h2>
+                  <form id="contactForm">
+                    <div class="mb-3">
+                     <label for="name" class="form-label">Name</label>
+                     <input type="text" class="form-control" id="name" required>
+                     <div class="form-feedback" id="nameFeedback"></div>
+                    </div>
+                    <div class="mb-3">
+                     <label for="email" class="form-label">Email</label>
+                     <input type="email" class="form-control" id="email" required>
+                     <div class="form-feedback" id="emailFeedback"></div>
+                    </div>
+                    <div class="mb-3">
+                     <label for="message" class="form-label">Message</label>
+                     <textarea class="form-control" id="message" rows="4" required></textarea>
+                     <div class="form-feedback" id="messageFeedback"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                    <div class="form-success" id="successMessage"></div>
+                  </form>
+                </div>
+          <!-- Location Map -->
+          <div class="col-lg-6">
+            <h2>Our Location</h2>
+            <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.6088242523726!2d-73.9854284845936!3d40.74881797932754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab2d2b70b1%3A0xd4c56d08aa15b0c5!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1634104251592!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+          <!--Contact & Infos End -->
         <hr>
         <!--Social Icons -->
         <div class="social">
