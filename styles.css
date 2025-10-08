@@ -58,6 +58,18 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .welcome_title {
+        font-size: 20px;
+        
+    }
+
+    .welcome_text {
+        font-size: 13px;
+        margin: 15px 0 0 15px;
+    }
+    
+}
 /***************************************************************    Navbar    **********************************************************************/
 
 .navbar-home {
