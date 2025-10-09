@@ -11,7 +11,7 @@
 
 
 body {
-    background-color: #F8F8F8;
+    background: linear-gradient(135deg, #82BEE8, #F8F8F8);
     color: #333;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scroll */
