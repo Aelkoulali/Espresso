@@ -156,9 +156,25 @@ body {
   }
 }
 /***********************************************************     About     ***********************************************************************/
+.carousel {
+    width: 30%;  /* 30% of the page/container width */
+    margin-left: auto;  /* Center the carousel horizontally */
+    margin-right: auto; /* Center the carousel horizontally */
+}
 
-/************************************************************        Menu        ***************************************************************/
+/* Adjust the image inside the carousel */
+.carousel-item img {
+    width: 100%;  /* Make the image take up the full width of the carousel */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
 
+/* Optional: Make the carousel responsive on smaller screens */
+@media (max-width: 768px) {
+    .carousel {
+        width: 70%;  /* Increase the width for smaller devices if needed */
+    }
+}
 
 /************************************************************    BLOG    ***************************************************************/
 .post {
