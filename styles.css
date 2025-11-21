@@ -157,7 +157,7 @@ body {
 }
 /***********************************************************     About     ***********************************************************************/
 .carousel {
-    width: 30%;  /* 30% of the page/container width */
+    width: 50%;  /* 30% of the page/container width */
     margin-left: auto;  /* Center the carousel horizontally */
     margin-right: auto; /* Center the carousel horizontally */
 }
@@ -165,7 +165,7 @@ body {
 /* Adjust the image inside the carousel */
 .carousel-item img {
     width: 100%;  /* Make the image take up the full width of the carousel */
-    height: 600px; /* Maintain the aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
     object-fit: cover; /* Ensure the image covers the container without distortion */
 }
 
