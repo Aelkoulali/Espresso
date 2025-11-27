@@ -217,7 +217,7 @@ hr {
     justify-items: center;
     max-width: 100%;
     height: 100%;
-    background-color:black;  
+    background-color: #202020;  
     color: #f2f2f2;
     top:0;
     
@@ -274,7 +274,7 @@ hr {
     justify-content: center;
     align-items: center;
     padding:15px;
-    background-color: black;
+    background-color: #202020;
 
 }
 .sc{
