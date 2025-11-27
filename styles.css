@@ -160,9 +160,9 @@ body {
     background-color: rgba(20, 20, 20, 0.95); /* same for collapsed menu */
   }
 }
-/***********************************************************     About     ***********************************************************************/
+/***********************************************************     Menu     ***********************************************************************/
 .carousel {
-    width: 90%;  /* 90% of the page/container width */
+    width: 100%;  /* 100% of the page/container width */
     margin-left: auto;  /* Center the carousel horizontally */
     margin-right: auto; /* Center the carousel horizontally */
 }
