@@ -203,25 +203,6 @@ body {
 }
 
 /**********************************************************************     Footer    ********************************************************************************/
-hr {
-    width: 100%;
-    margin: 5px 0;
-    border-bottom:1px solid;
-   
-}
-
-.footer {
-    display: block;
-    position: relative;
-    justify-content: center;
-    justify-items: center;
-    max-width: 100%;
-    height: 100%;
-    background-color: #202020;  
-    color: #f2f2f2;
-    top:0;
-    
-}
 
 .social {
    min-height: 60px;
@@ -239,92 +220,13 @@ hr {
 .links a {
     padding: 25px 10px 10px 10px;
     vertical-align: middle;
-    font-size: 21px
+    font-size: 21px;
+    color: #ffffff;
+    transition: all 0.3s ease;
 }
 
-.content {
-    display: flex;
-    vertical-align: middle;
-    padding-bottom: 10px;
+.links a:hover {
+    color: #7c4dff;
+    transform: scale(1.2);
+    transition: all 0.3s ease;
 }
-
-.infos {
-    width: 100%;
-    height: auto;
-    padding: 15px 50px;
-    display: flex;
-    justify-content:space-around;
-    padding: 20px;
-}
-
-.info_contact, .info_time, .info_team, .info_order,.info_social{
-    padding-top: 10px;
-}
-
-.infos p, .links a {
-    color: #fff;
-}
-
-.infos p:hover, .links a:hover {
-    color:#9f500b;
-}
-
-.copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:15px;
-    background-color: #202020;
-
-}
-.sc{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.links a {
-    padding: 10px;
-}
-
-@media (max-width:780px){
-    .footer {
-        position: relative; 
-        display: grid;
-        max-width: 100%;
-       
-    }
-
-    .social{
-        width: 100%;
-        height: 40px;
-        font-size: 21px;
-    }
-
-    .social p{
-        font-size: 25px;
-        font-weight: bold;
-        padding-top: 10px;
-    }
-
-    .infos{
-        width: 100%;
-        display :flex;
-        flex-direction: column; 
-        flex-wrap: wrap;
-        height: auto;      
-    }
-
-    .info_contact, .info_time, .info_team, .info_order{
-        margin-bottom:15px;
-    }
-     
-}
-
-@media only screen and (max-width: 500px){
-    .links a {
-        padding: 10px;
-        vertical-align: middle;
-        font-size: 19px
-    }
-}  
