@@ -1,6 +1,6 @@
 # 🗂️ Espresso ☕🥯
 ## ➡️ Key Concepts:
-## ✅ Coffee Shop Website 
+## ✅ Coffee Shop  
 ## ✅ HTML CSS
 ## ✅ Responsive
 ## ✅ Bootsrap
