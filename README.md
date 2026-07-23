@@ -12,7 +12,7 @@ A responsive multi-page website for an coffee shop brand. It includes sections l
 ## 📄Pages Included
 - `index.html` (Home)
 - `about.html` (About)
-- `mznu.html` (Menu)
+- `menu.html` (Menu)
 - `beverages.html` (Beverages)
 - `food.html` (Food)
 - `contact.html` (Contact)
