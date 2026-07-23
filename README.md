@@ -27,7 +27,3 @@ A responsive multi-page website for an coffee shop brand. It includes sections l
 Just open the project files in a browser:
 1. Download/clone the repository
 2. Open `index.html` in your browser
-## ➡️ Key Concepts :
-## ✅ Coffee Shop Project  
-## ✅ HTML CSS Bootsrap
-## ✅ Responsive
