@@ -1,6 +1,6 @@
 # 🗂️ Espresso ☕🥯
 ## Energy Company Website (HTML + CSS + Bootstrap)
-A responsive multi-page website for an coffee shop brand. It includes sections like About, Activities, Projects, Careers, and Contact, using Bootstrap for layout and styling.
+A responsive multi-page website for an coffee shop brand. It includes sections like About, About, Menuu, Food, Beverages, Reservation and Contact, using Bootstrap for layout and styling.
 
 ## ✅ Key Features
 - Responsive design (mobile-first)
