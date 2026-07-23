@@ -5,7 +5,7 @@ A responsive multi-page website for an coffee shop brand. It includes sections l
 ## ✅ Key Features
 - Responsive design (mobile-first)
 - Reusable UI (navbar + footer on each page)
-- Cards with images for projects/activities
+- Cards with images for Menu/ Bevarages and Food
 - Clean sections for About, Menu, Reservation, Contact, Food, beverages 
 - Contact page with a form UI
 
