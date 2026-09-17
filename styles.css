@@ -10,7 +10,7 @@
 }
 
 
-body {
+html,body {
     background-color: #f0dcb4; 
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scroll */
@@ -176,13 +176,14 @@ body {
 
 /* Mobile-only background */
 @media (max-width: 768px) {
-  .navbar-home {
-    background-color: rgba(20, 20, 20, 0.95); /* dark background */
-  }
+    .navbar-home,
+    .navbar-collapse {
+        background-color: #f0dcb4 !important;
+    }
 
-  .navbar-collapse {
-    background-color: rgba(20, 20, 20, 0.95); /* same for collapsed menu */
-  }
+    .navbar .nav-link {
+        color: #4b2e23 !important;
+    }
 }
 
 
