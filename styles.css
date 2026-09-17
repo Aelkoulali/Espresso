@@ -11,10 +11,11 @@
 
 
 body {
-    background-color: #f3e9dc;
+    background-color: #f0dcb4; 
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
+
 
 /**************************************************************     Welcome     **********************************************************************/
 .welcome {
