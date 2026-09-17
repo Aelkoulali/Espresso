@@ -11,7 +11,7 @@
 
 
 body {
-    background: linear-gradient(135deg, #82BEE8, #F8F8F8);
+    background-color: #f8f5f0;
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
@@ -182,6 +182,66 @@ body {
     background-color: rgba(20, 20, 20, 0.95); /* same for collapsed menu */
   }
 }
+
+
+.about-section {
+  background-color: #f8f5f0;
+  color: #3d2921;
+}
+
+.about-section img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.about-subtitle {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #a56a43;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.about-title {
+  margin-bottom: 1.25rem;
+  color: #4b2e23;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+}
+
+.about-text {
+  color: #62483b;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.about-list {
+  margin: 1.5rem 0;
+  padding-left: 1.25rem;
+  color: #62483b;
+  line-height: 2;
+}
+
+.about-list li::marker {
+  color: #a56a43;
+}
+
+.about-closing {
+  margin-top: 1.5rem;
+  color: #4b2e23;
+  font-weight: 600;
+  font-style: italic;
+}
+
 /***********************************************************     Menu     ***********************************************************************/
 .carousel {
     width: 100%;  /* 100% of the page/container width */
