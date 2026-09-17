@@ -113,6 +113,7 @@ body {
 .navbar-light .nav-link,
 .navbar .nav-link {
   color: #4b2e23;
+  font-weight: bold;
 }
 
 .nav-link {
