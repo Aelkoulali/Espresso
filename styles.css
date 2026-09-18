@@ -10,7 +10,7 @@
 }
 
 
-html,body {
+html,body, section {
     background-color: #f0dcb4; 
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal scroll */
@@ -296,6 +296,9 @@ html,body {
 }
 /**********************************************************************     Footer    ********************************************************************************/
 
+.footer {
+    background-color: transparent;
+}
 .links a {
     padding: 25px 10px 10px 10px;
     vertical-align: middle;
