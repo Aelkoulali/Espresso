@@ -37,8 +37,8 @@ html,body, section {
 .welcome_title {
     font-size: 30px;
     font-weight: bold;
-    color: #f2f2f2;
-    text-shadow: 2px 2px 4px #000000;
+    color: #3d2921;
+    text-shadow: 2px 2px 4px #fff;
     margin : 20px 0 0 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
