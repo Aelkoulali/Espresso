@@ -1,115 +1,125 @@
 <!doctype html>
-    <html lang="en">
-      <head>
-        <title>Contact</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="description" content="coffee shop">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- Linking CSS File -->
-        <link rel="stylesheet" href="styles.css">
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <!--Font Awesome -->
-        <script src="https://kit.fontawesome.com/e4b53298eb.js" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="#">
-      </head>
-      <body>
-        <!-- NavBar -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #E7AC82;">
-          <a class="navbar-brand" href="index.html"><img src="images/Logo/Logo.png" alt="Company Logo" class="navbar-logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="main-navigation">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
-              <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
+<html lang="en">
+
+<head>
+  <title>Contact</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="coffee shop">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Linking CSS File -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--Font Awesome -->
+  <script src="https://kit.fontawesome.com/e4b53298eb.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #E7AC82;">
+    <a class="navbar-brand" href="index.html"><img src="images/Logo/Logo.png" alt="Company Logo"
+        class="navbar-logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation"
+      aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="reservation.html">Reservation</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Contact Section Start -->
+    <section class="contact-section" style="padding: 50px; margin: auto;">
+      <h1 class="reservation_title" style="width: 100%; text-align: center; margin-top: 70px;">Contact Us</h1>
+      <div class="container mt-5">
+        <div class="row">
+          <!-- Contact Form -->
+          <div class="col-lg-6">
+            <p class="reservation_subtitle">Please fill out the form below to get in touch with us.</p>
+            <form id="contactForm">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                <div class="form-feedback" id="nameFeedback"></div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                <div class="form-feedback" id="emailFeedback"></div>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
+                <div class="form-feedback" id="messageFeedback"></div>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">I Agree to Espresso &nbsp<a href="#">Terms and
+                    Conditions</a></label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <div class="form-success" id="successMessage"></div>
+            </form>
           </div>
-        </nav>
-        <main>
-          <!-- Contact Section Start -->
-            <section class="contact-section" style="padding: 50px; margin: auto;">
-              <h1 class="reservation_title" style="width: 100%; text-align: center; margin-top: 70px;">Contact Us</h1>
-              <div class="container mt-5">
-                <div class="row">
-                  <!-- Contact Form -->
-                  <div class="col-lg-6">
-                  <p class="reservation_subtitle">Please fill out the form below to get in touch with us.</p>
-                  <form id="contactForm">
-                    <div class="mb-3">
-                     <label for="name" class="form-label">Name</label>
-                     <input type="text" class="form-control" id="name" placeholder="Full Name" required>                     
-                     <div class="form-feedback" id="nameFeedback"></div>
-                    </div>
-                    <div class="mb-3">
-                     <label for="email" class="form-label">Email</label>
-                     <input type="email" class="form-control" id="email" placeholder="Email" required>
-                     <div class="form-feedback" id="emailFeedback"></div>
-                    </div>
-                    <div class="mb-3">
-                     <label for="message" class="form-label">Message</label>
-                     <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
-                     <div class="form-feedback" id="messageFeedback"></div>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">I Agree to Espresso &nbsp<a href="#">Terms and Conditions</a></label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <div class="form-success" id="successMessage"></div>
-                  </form>                                 
-                </div>
-                <!-- Location Map -->
-                <div class="col-lg-6">
-                  <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8665521149946!2d-73.8282879235352!3d40.742961835718795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2606f670f8625%3A0x9960c6695ebb34a5!2s60-06%20Main%20St%2C%20Flushing%2C%20NY%2011355%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1708807637188!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-             </div> 
-             <div class="bg-light col-lg-12" style="border-radius: 10px; margin-top: 50px;">
-                <h2 class="text-center" style="padding-top: 20px;">Get in touch</h2>
-                <div class="row text-center" style="padding: 20px;">
-                  <div class="col-md-4">
-                    <i class="fas fa-map-marker-alt fa-2x mb-3" style="color:#3d2921 ;"></i>
-                    <h5>Address</h5>
-                    <p>60-06 Main St, Flushing, NY 11355, USA</p>                                        
-             </div>    
-                   <div class="col-md-4">
-                      <i class="fas fa-phone fa-2x mb-3" style="color: #3d2921;"></i>
-                      <h5>Phone</h5>
-                      <p>+1 234 567 890</p>                                        
-                    </div>    
-                    <div class="col-md-4">
-                      <i class="fas fa-envelope fa-2x mb-3" style="color: #3d2921;"></i>
-                      <h5>Email</h5>
-                      <p>contact@espresso.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>    
-          </section>
-        </main>  
-        <!-- Footer Section Start -->
-        <footer class="text-center text-lg-start text-white" style="background-color: #1c2331;">
-          <!-- Section: Social media -->
-          <div class="d-flex justify-content-center p-4" style="background-color:rgba(0, 0, 0, 0.2);">
-              <div class="links">
-                <a href="https://www.linkedin.com" target="_blank" aria-labele="linkedin"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.twitter.com/" target="_blank" aria-label="twitter"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://tiktok.com/" target="_blank" aria-label="tiktok"><i class="fa-brands fa-tiktok"></i></a>
-              </div>           
+          <!-- Location Map -->
+          <div class="col-lg-6">
+            <iframe class="contact-map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.8665521149946!2d-73.8282879235352!3d40.742961835718795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2606f670f8625%3A0x9960c6695ebb34a5!2s60-06%20Main%20St%2C%20Flushing%2C%20NY%2011355%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sfr!4v1708807637188!5m2!1sfr!2sfr"
+              allowfullscreen="" loading="lazy"></iframe>
           </div>
-          <!-- Section: Social media -->
-          <!-- Section: Links -->
-          <div class="container">
-            <div class="container text-center text-md-start mt-5">
-              <div class="row mt-3">
+        </div>
+        <div class="bg-light col-lg-12" style="border-radius: 10px; margin-top: 50px;">
+          <h2 class="text-center" style="padding-top: 20px;">Get in touch</h2>
+          <div class="row text-center" style="padding: 20px;">
+            <div class="col-md-4">
+              <i class="fas fa-map-marker-alt fa-2x mb-3" style="color:#3d2921 ;"></i>
+              <h5>Address</h5>
+              <p>60-06 Main St, Flushing, NY 11355, USA</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fas fa-phone fa-2x mb-3" style="color: #3d2921;"></i>
+              <h5>Phone</h5>
+              <p>+1 234 567 890</p>
+            </div>
+            <div class="col-md-4">
+              <i class="fas fa-envelope fa-2x mb-3" style="color: #3d2921;"></i>
+              <h5>Email</h5>
+              <p>contact@espresso.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer Section Start -->
+  <footer class="text-center text-lg-start text-white" style="background-color: #1c2331;">
+    <!-- Section: Social media -->
+    <div class="d-flex justify-content-center p-4" style="background-color:rgba(0, 0, 0, 0.2);">
+      <div class="links">
+        <a href="https://www.linkedin.com" target="_blank" aria-labele="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com/" target="_blank" aria-label="twitter"><i
+            class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://tiktok.com/" target="_blank" aria-label="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+    <!-- Section: Social media -->
+    <!-- Section: Links -->
+    <div class="container">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
           <!-- Company Info -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <h6 class="text-uppercase fw-bold">Espresso</h6>
@@ -118,8 +128,10 @@
               <img src="images/Logo/Logo.png" alt="Company Logo" style="width: 80px; margin-bottom: 10px;">
             </div>
             <p>Get our App</p>
-            <a href="https://www.apple.com/app-store/"><img src="images/Logo/appstore.png" alt="App Store" style="width: 100px;height: 35px; margin-right: 10px;"></a>
-            <a href="https://play.google.com/store"><img src="images/Logo/googlePlay.png" alt="Google Play" style="width: 100px;height: 35px;"></a>
+            <a href="https://www.apple.com/app-store/"><img src="images/Logo/appstore.png" alt="App Store"
+                style="width: 100px;height: 35px; margin-right: 10px;"></a>
+            <a href="https://play.google.com/store"><img src="images/Logo/googlePlay.png" alt="Google Play"
+                style="width: 100px;height: 35px;"></a>
           </div>
           <!-- Products -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -148,18 +160,19 @@
             <p><a href="contact.html" class="text-white">Options</a></p>
             <p><a href="contact.html" class="text-white">Customer Support</a></p>
           </div>
-              </div>
-            </div>
-          </div>
-          <!-- Section: Links -->
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © Espresso 2025 - All Rights Reserved
-          </div>
-          <!-- Copyright -->
-        </footer>
-        <!-- Footer Section End -->
-      </body>
-      <!-- Bootstrap Bundle with Popper -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    </html>
+        </div>
+      </div>
+    </div>
+    <!-- Section: Links -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © Espresso 2025 - All Rights Reserved
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer Section End -->
+</body>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
