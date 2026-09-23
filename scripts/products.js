@@ -11,10 +11,10 @@ const products = [
   { id: 10, name:"Cheesecake" , price: 3.00, category:"food",type:"pastry",popular:true, image:"images/Menu/Pastry/Cheesecake.png"},
   { id: 11, name:"Cream Cookie" , price: 2.00, category:"food",type:"pastry",popular:false, image:" images/Menu/Pastry/Cream_Cookie.png"},
   { id: 12, name:"Macarons" , price: 3.50, category:"food",type:"pastry",popular:true, image:" images/Menu/Pastry/Macarons.png"},
-  { id: 13, name:"Americano" , price: 2.25, category:"beverage",type:"hot",popular:true, image:" images/Menu/Hot/Americano.png"},
-  { id: 14, name:"Caffè Latte" , price: 3.00, category:"beverage",type:"hot",popular:true, image:"images/Menu/Hot/Caffè_Latte.png"},
+  { id: 13, name:"Americano" , price: 2.50, category:"beverage",type:"hot",popular:true, image:" images/Menu/Hot/Americano.png"},
+  { id: 14, name:"Caffè Latte" , price: 2.75, category:"beverage",type:"hot",popular:true, image:"images/Menu/Hot/Caffè_Latte.png"},
   { id: 15, name:"Cappuccino" , price: 2.00, category:"beverage",type:"hot",popular:false, image:" images/Menu/Hot/Cappuccino.png"},
-  { id: 16, name:"Caramel Macchiato" , price: 3.50, category:"beverage",type:"hot",popular:true, image:" images/Menu/Hot/Caramel_Macchiato.png"},
+  { id: 16, name:"Caramel Macchiato" , price: 3.00, category:"beverage",type:"hot",popular:true, image:" images/Menu/Hot/Caramel_Macchiato.png"},
   
   
   
