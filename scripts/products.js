@@ -19,8 +19,8 @@ const products = [
   { id: 18, name:"Caffè Latte" , price: 3.80, category:"beverage",type:"iced",popular:true, image:"images/Menu/Iced/Iced_Chocolate.png"},
   { id: 19, name:"Cappuccino" , price: 3.90, category:"beverage",type:"iced",popular:false, image:" images/Menu/Iced/Iced_Espresso.png"},
   { id: 20, name:"Caramel Macchiato" , price: 3.00, category:"beverage",type:"iced",popular:true, image:" images/Menu/Iced/Iced_Latte.png"},
-  { id: 21, name:"Americano" , price: 3.50, category:"beverage",type:"refreshers",popular:false, image:" images/Menu/Refreshers/Dragon_Drink.png"},
-  { id: 22, name:"Caffè Latte" , price: 3.80, category:"beverage",type:"refreshers",popular:true, image:"images/Menu/Refreshers/Grapefruit_Honey.png"},
+  { id: 21, name:"Americano" , price: 3.50, category:"beverage",type:"refreshers",popular:true, image:" images/Menu/Refreshers/Dragon_Drink.png"},
+  { id: 22, name:"Caffè Latte" , price: 3.80, category:"beverage",type:"refreshers",popular:false, image:"images/Menu/Refreshers/Grapefruit_Honey.png"},
   { id: 23, name:"Cappuccino" , price: 3.90, category:"beverage",type:"refreshers",popular:false, image:" images/Menu/Refreshers/Green_Tea_Lemonade.png"},
   { id: 24, name:"Caramel Macchiato" , price: 3.00, category:"beverage",type:"refreshers",popular:true, image:" images/Menu/Refreshers/Mango_Dragonfruit.png"}
   
