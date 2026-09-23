@@ -15,9 +15,9 @@ const products = [
   { id: 14, name:"Caffè Latte" , price: 2.75, category:"beverage",type:"hot",popular:true, image:"images/Menu/Hot/Caffè_Latte.png"},
   { id: 15, name:"Cappuccino" , price: 2.00, category:"beverage",type:"hot",popular:false, image:" images/Menu/Hot/Cappuccino.png"},
   { id: 16, name:"Caramel Macchiato" , price: 3.00, category:"beverage",type:"hot",popular:true, image:" images/Menu/Hot/Caramel_Macchiato.png"},
-  { id: 17, name:"Americano" , price: 2.50, category:"beverage",type:"iced",popular:false, image:" images/Menu/Iced/Iced_Cappucino.png"},
-  { id: 18, name:"Caffè Latte" , price: 2.75, category:"beverage",type:"iced",popular:true, image:"images/Menu/Iced/Iced_Chocolate.png"},
-  { id: 19, name:"Cappuccino" , price: 2.00, category:"beverage",type:"iced",popular:false, image:" images/Menu/Iced/Iced_Espresso.png"},
+  { id: 17, name:"Americano" , price: 3.50, category:"beverage",type:"iced",popular:false, image:" images/Menu/Iced/Iced_Cappucino.png"},
+  { id: 18, name:"Caffè Latte" , price: 3.80, category:"beverage",type:"iced",popular:true, image:"images/Menu/Iced/Iced_Chocolate.png"},
+  { id: 19, name:"Cappuccino" , price: 3.90, category:"beverage",type:"iced",popular:false, image:" images/Menu/Iced/Iced_Espresso.png"},
   { id: 20, name:"Caramel Macchiato" , price: 3.00, category:"beverage",type:"iced",popular:true, image:" images/Menu/Iced/Iced_Latte.png"},
   
   
