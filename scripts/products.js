@@ -11,6 +11,14 @@ const products = [
   { id: 10, name:"Cheesecake" , price: 3.00, category:"food",type:"pastry",popular:true, image:"images/Menu/Pastry/Cheesecake.png"},
   { id: 11, name:"Cream Cookie" , price: 2.00, category:"food",type:"pastry",popular:false, image:" images/Menu/Pastry/Cream_Cookie.png"},
   { id: 12, name:"Macarons" , price: 3.50, category:"food",type:"pastry",popular:true, image:" images/Menu/Pastry/Macarons.png"},
+  { id: 13, name:"Brownie" , price: 2.25, category:"food",type:"pastry",popular:true, image:" images/Menu/Pastry/Brownie.png"},
+  { id: 14, name:"Cheesecake" , price: 3.00, category:"food",type:"pastry",popular:true, image:"images/Menu/Pastry/Cheesecake.png"},
+  { id: 15, name:"Cream Cookie" , price: 2.00, category:"food",type:"pastry",popular:false, image:" images/Menu/Pastry/Cream_Cookie.png"},
+  { id: 16, name:"Macarons" , price: 3.50, category:"food",type:"pastry",popular:true, image:" images/Menu/Pastry/Macarons.png"},
+  
+  
+  
+  
   
  
  
