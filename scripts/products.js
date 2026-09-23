@@ -7,10 +7,10 @@ const products = [
   { id: 6, name:"Chicken Parmigiana" , price: 8.00, category:"food",type:"lunch",popular:false, image:"images/Menu/Lunch/Chicken_Parmigiana.png"},
   { id: 7, name:"Turkey Cranberry Brie" , price: 9.00, category:"food",type:"lunch",popular:true, image:" images/Menu/Lunch/Turkey_Cranberry_Brie.png"},
   { id: 8, name:"Wrap Chicken Avocado" , price: 8.00, category:"food",type:"lunch",popular:true, image:" images/Menu/Lunch/Wrap_Chicken_Avocado.png"},
-  { id: 9, name:"Brownie" , price: 7.50, category:"food",type:"lunch",popular:true, image:" images/Menu/Lunch/Chicken_Mozarella_Panini.png"},
-  { id: 10, name:"Cheesecake" , price: 8.00, category:"food",type:"lunch",popular:false, image:"images/Menu/Lunch/Chicken_Parmigiana.png"},
-  { id: 11, name:"Cream Cookie" , price: 9.00, category:"food",type:"lunch",popular:true, image:" images/Menu/Lunch/Turkey_Cranberry_Brie.png"},
-  { id: 12, name:"Macarons" , price: 8.00, category:"food",type:"lunch",popular:true, image:" images/Menu/Lunch/Wrap_Chicken_Avocado.png"},
+  { id: 9, name:"Brownie" , price: 7.50, category:"food",type:"lunch",popular:true, image:" images/Menu/Pastry/Brownie.png"},
+  { id: 10, name:"Cheesecake" , price: 8.00, category:"food",type:"lunch",popular:false, image:"images/Menu/Pastry/Cheesecake.png"},
+  { id: 11, name:"Cream Cookie" , price: 9.00, category:"food",type:"lunch",popular:true, image:" images/Menu/Pastry/Cream_Cookie.png"},
+  { id: 12, name:"Macarons" , price: 8.00, category:"food",type:"lunch",popular:true, image:" images/Menu/Pastry/Macarons.png"},
   
  
  
