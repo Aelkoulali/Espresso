@@ -286,16 +286,17 @@ section {
 
 
 .links a {
+  cursor: pointer;
   padding: 25px 10px 10px 10px;
   vertical-align: middle;
   font-size: 21px;
-  color: #ffffff;
+  color: #ffff;
   transition: all 0.3s ease;
   
 }
 
 .links a:hover {
-  color: #7c4dff;
+  color: #ffff;
   transform: scale(1.2);
   transition: all 0.3s ease;
 }
