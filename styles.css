@@ -284,19 +284,16 @@ section {
   background-color: transparent;
 }
 
-
-.links a {
+.footer_links a {
+  display: inline-block;
   cursor: pointer;
-  padding: 25px 10px 10px 10px;
-  vertical-align: middle;
+  padding: 10px 10px 10px;
   font-size: 21px;
-  color: #ffff;
-  transition: all 0.3s ease;
-  
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.links a:hover {
-  color: #ffff;
-  transform: scale(1.2);
-  transition: all 0.3s ease;
+.footer_links a:hover {
+  color: #fff;
+  transform: scale(1.3);
 }
