@@ -283,12 +283,18 @@ section {
 .footer {
   background-color: transparent;
 }
+
+.footer a {
+  text-decoration : none;
+}
+
 .links a {
   padding: 25px 10px 10px 10px;
   vertical-align: middle;
   font-size: 21px;
   color: #ffffff;
   transition: all 0.3s ease;
+  
 }
 
 .links a:hover {
