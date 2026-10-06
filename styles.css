@@ -1,4 +1,4 @@
-/**************************************************************   Import Fonts   ********************************************************************/
+/** Import Fonts **/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
 
 /** Skeleton **/
@@ -17,7 +17,7 @@ section {
   overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
-/**************************************************************     Welcome     **********************************************************************/
+/** Welcome **/
 .welcome {
   height: 100vh;
   max-width: 100%;
@@ -90,7 +90,7 @@ section {
   text-decoration: none;
 }
 
-/***************************************************************    Navbar    **********************************************************************/
+/** Navbar **/
 
 .navbar-home {
   background-color: transparent !important;
@@ -177,7 +177,7 @@ section {
   }
 }
 
-/***************************************************************    About    **********************************************************************/
+/** About **/
 
 .about-section {
   background-color: transparent;
@@ -239,7 +239,7 @@ section {
   font-style: italic;
 }
 
-/***********************************************************     Menu     ***********************************************************************/
+/** Menu **/
 .carousel {
   width: 100%; /* 100% of the page/container width */
   margin-left: auto; /* Center the carousel horizontally */
