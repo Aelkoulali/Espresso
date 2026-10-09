@@ -264,17 +264,7 @@ section {
   }
 }
 
-/** BLOG **/
-.post {
-  margin-top: 20px;
-}
 
-.post-image {
-  width: 100%;
-  height: 600px;
-  border-radius: 8px;
-  object-fit: fit-cover;
-}
 
 /** Contact **/
 .form-check-label a {
