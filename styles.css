@@ -71,10 +71,10 @@ section {
   .welcome_text {
     font-size: 13px;
     margin: 15px 0 0 15px;
-  }  
+  }
 }
 
-.btn-book{
+.btn-book {
   display: inline-block;
   background-color: #9b4207;
   color: #fff;
